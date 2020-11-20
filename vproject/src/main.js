@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 
 //注册一个全局前置路由守卫
 router.beforeEach((to, from, next) => {
+  consle.log('dsfs')
 
 	console.log('beforeEach to ==> ', to);
 	console.log('beforeEach from ==> ', from);
